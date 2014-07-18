@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="#">
+        <title>Lightweight Tooltip Demo</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
+        <!-- Font-awesome is needed for this example -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='./css/style.css' rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Tooltip Demo</h1>
+            <div class='content'>
+                <p class="lead">I wrote this plugin as a lightweight js tooltip solution for my Rackmount Servers project. This tooltip works differently for both mobile and desktop versions. The code for this plugin is somewhat procedural and needs some updating. I plan on revisiting this project to update the code and complete a pure CSS solution to go along with it. To see the source code visit my github page at <a href="https://github.com/le717/brackets-html-skeleton">Tooltip</a>.</p>
+                
+                
+                <!-- To set up pluging, somply include Font-awesome and insert a "<i class='fa fa-info-circle fa-lg'>". Everything you want visible in the tooltip popup should be placed within a span with the class of "tool-content" -->
+                <i class='fa fa-info-circle fa-2x'>
+                    <span class='tool-content'>Lorem ipsum dolor sit amet, <span style='color: #e19482;'>consectetur adipiscing elit</span>. Suspendisse eu consequat arcu. Nulla eget venenatis leo, sed elementum massa. Sed ante enim, fermentum id quam pulvinar, tempor pellentesque purus. Integer a metus quis enim condimentum lobortis. Duis feugiat vulputate nisl, et consequat risus adipiscing eu. Integer ac feugiat leo, nec blandit arcu. Suspendisse ornare eros non turpis elementum, vitae auctor arcu ultrices.</span>
+                </i>
+                <div class='thumb-tip'></div>
+                <!-- End of tooltip code -->
+                
+                
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- compiled and minified Bootstrap JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <!-- Tooltip javascript -->
+        <script src='./js/tooltip.js'></script>
+    </body>
+</html>
