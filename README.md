@@ -15,4 +15,4 @@ Installation is simple, include Font-Awesome in your project, and add the follow
 
 After you have included the above html, include the tooltip.css and tooltip.js, or simply copy and paste the contents in to one of your own css or js files.
 
-To view a demo goto <a href='www.kyleschneiderman.com/examples/tooltip'>www.kyleschneiderman.com/examples/tooltip</a>
+To view a demo goto <a href='http://www.kyleschneiderman.com/examples/tooltip'>http://www.kyleschneiderman.com/examples/tooltip</a>
